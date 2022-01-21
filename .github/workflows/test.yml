@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
        include:
-         - platform: apollolake
+         - platform: bromolow
            version: 7.0.1-42218
     steps:
       - name: 准备结束
